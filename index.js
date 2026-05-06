@@ -1,10 +1,10 @@
 require("dotenv").config();
 
-const PORT = process.env.PORT || 5000;
-
 const express = require("express");
 const cors = require("cors");
 const app = express();
+
+const PORT = process.env.PORT || 3001;
 
 const baseTilesArray = [
 	{
@@ -792,7 +792,11 @@ const baseTilesArray = [
 	},
 ];
 
-app.use(cors("*"));
+app.use(
+	cors({
+		origin: process.env.FRONTEND_URL || "http://localhost:5173",
+	}),
+);
 
 app.get("/api/basetiles", (req, res) => {
 	res.json(baseTilesArray);
