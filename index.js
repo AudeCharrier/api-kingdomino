@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3001;
 const baseTilesArray = [
 	{
 		id: 1,
-		imgSrcRecto: "/components/base/base_tiles/assets/tile_1_recto.webp",
+		imgSrcRecto: "/assets/tiles/tile_1_recto.webp",
 		left: {
 			landscape: "desert",
 			flames: 0,
@@ -24,7 +24,7 @@ const baseTilesArray = [
 
 	{
 		id: 2,
-		imgSrcRecto: "/components/base/base_tiles/assets/tile_2_recto.webp",
+		imgSrcRecto: "/assets/tiles/tile_2_recto.webp",
 
 		left: {
 			landscape: "desert",
@@ -39,7 +39,7 @@ const baseTilesArray = [
 	},
 	{
 		id: 3,
-		imgSrcRecto: "/components/base/base_tiles/assets/tile_3_recto.webp",
+		imgSrcRecto: "/assets/tiles/tile_3_recto.webp",
 
 		left: {
 			landscape: "desert",
@@ -54,7 +54,7 @@ const baseTilesArray = [
 	},
 	{
 		id: 4,
-		imgSrcRecto: "/components/base/base_tiles/assets/tile_4_recto.webp",
+		imgSrcRecto: "/assets/tiles/tile_4_recto.webp",
 
 		left: {
 			landscape: "desert",
@@ -70,7 +70,7 @@ const baseTilesArray = [
 	},
 	{
 		id: 5,
-		imgSrcRecto: "/components/base/base_tiles/assets/tile_5_recto.webp",
+		imgSrcRecto: "/assets/tiles/tile_5_recto.webp",
 
 		left: {
 			landscape: "desert",
@@ -86,7 +86,7 @@ const baseTilesArray = [
 	},
 	{
 		id: 6,
-		imgSrcRecto: "/components/base/base_tiles/assets/tile_6_recto.webp",
+		imgSrcRecto: "/assets/tiles/tile_6_recto.webp",
 
 		left: {
 			landscape: "desert",
@@ -102,7 +102,7 @@ const baseTilesArray = [
 	},
 	{
 		id: 7,
-		imgSrcRecto: "/components/base/base_tiles/assets/tile_7_recto.webp",
+		imgSrcRecto: "/assets/tiles/tile_7_recto.webp",
 
 		left: {
 			landscape: "desert",
@@ -118,7 +118,7 @@ const baseTilesArray = [
 	},
 	{
 		id: 8,
-		imgSrcRecto: "/components/base/base_tiles/assets/tile_8_recto.webp",
+		imgSrcRecto: "/assets/tiles/tile_8_recto.webp",
 
 		left: {
 			landscape: "desert",
@@ -134,7 +134,7 @@ const baseTilesArray = [
 	},
 	{
 		id: 9,
-		imgSrcRecto: "/components/base/base_tiles/assets/tile_9_recto.webp",
+		imgSrcRecto: "/assets/tiles/tile_9_recto.webp",
 
 		left: {
 			landscape: "desert",
@@ -150,7 +150,7 @@ const baseTilesArray = [
 	},
 	{
 		id: 10,
-		imgSrcRecto: "/components/base/base_tiles/assets/tile_10_recto.webp",
+		imgSrcRecto: "/assets/tiles/tile_10_recto.webp",
 
 		left: {
 			landscape: "desert",
@@ -166,7 +166,7 @@ const baseTilesArray = [
 	},
 	{
 		id: 11,
-		imgSrcRecto: "/components/base/base_tiles/assets/tile_11_recto.webp",
+		imgSrcRecto: "/assets/tiles/tile_11_recto.webp",
 
 		left: {
 			landscape: "desert",
@@ -182,7 +182,7 @@ const baseTilesArray = [
 	},
 	{
 		id: 12,
-		imgSrcRecto: "/components/base/base_tiles/assets/tile_12_recto.webp",
+		imgSrcRecto: "/assets/tiles/tile_12_recto.webp",
 
 		left: {
 			landscape: "meadow",
@@ -200,7 +200,7 @@ const baseTilesArray = [
 
 	{
 		id: 13,
-		imgSrcRecto: "/components/base/base_tiles/assets/tile_13_recto.webp",
+		imgSrcRecto: "/assets/tiles/tile_13_recto.webp",
 
 		left: {
 			landscape: "meadow",
@@ -218,7 +218,7 @@ const baseTilesArray = [
 
 	{
 		id: 14,
-		imgSrcRecto: "/components/base/base_tiles/assets/tile_14_recto.webp",
+		imgSrcRecto: "/assets/tiles/tile_14_recto.webp",
 
 		left: {
 			landscape: "meadow",
@@ -235,7 +235,7 @@ const baseTilesArray = [
 	},
 	{
 		id: 15,
-		imgSrcRecto: "/components/base/base_tiles/assets/tile_15_recto.webp",
+		imgSrcRecto: "/assets/tiles/tile_15_recto.webp",
 
 		left: {
 			landscape: "lake",
@@ -252,7 +252,7 @@ const baseTilesArray = [
 	},
 	{
 		id: 16,
-		imgSrcRecto: "/components/base/base_tiles/assets/tile_16_recto.webp",
+		imgSrcRecto: "/assets/tiles/tile_16_recto.webp",
 
 		left: {
 			landscape: "lake",
@@ -269,7 +269,7 @@ const baseTilesArray = [
 	},
 	{
 		id: 17,
-		imgSrcRecto: "/components/base/base_tiles/assets/tile_17_recto.webp",
+		imgSrcRecto: "/assets/tiles/tile_17_recto.webp",
 
 		left: {
 			landscape: "jungle",
@@ -286,7 +286,7 @@ const baseTilesArray = [
 	},
 	{
 		id: 18,
-		imgSrcRecto: "/components/base/base_tiles/assets/tile_18_recto.webp",
+		imgSrcRecto: "/assets/tiles/tile_18_recto.webp",
 
 		left: {
 			landscape: "jungle",
@@ -303,7 +303,7 @@ const baseTilesArray = [
 	},
 	{
 		id: 19,
-		imgSrcRecto: "/components/base/base_tiles/assets/tile_19_recto.webp",
+		imgSrcRecto: "/assets/tiles/tile_19_recto.webp",
 
 		left: {
 			landscape: "meadow",
@@ -320,7 +320,7 @@ const baseTilesArray = [
 	},
 	{
 		id: 20,
-		imgSrcRecto: "/components/base/base_tiles/assets/tile_20_recto.webp",
+		imgSrcRecto: "/assets/tiles/tile_20_recto.webp",
 
 		left: {
 			landscape: "lake",
@@ -337,7 +337,7 @@ const baseTilesArray = [
 	},
 	{
 		id: 21,
-		imgSrcRecto: "/components/base/base_tiles/assets/tile_21_recto.webp",
+		imgSrcRecto: "/assets/tiles/tile_21_recto.webp",
 		left: {
 			landscape: "meadow",
 			flames: 0,
@@ -353,7 +353,7 @@ const baseTilesArray = [
 	},
 	{
 		id: 22,
-		imgSrcRecto: "/components/base/base_tiles/assets/tile_22_recto.webp",
+		imgSrcRecto: "/assets/tiles/tile_22_recto.webp",
 
 		left: {
 			landscape: "meadow",
@@ -370,7 +370,7 @@ const baseTilesArray = [
 	},
 	{
 		id: 23,
-		imgSrcRecto: "/components/base/base_tiles/assets/tile_23_recto.webp",
+		imgSrcRecto: "/assets/tiles/tile_23_recto.webp",
 
 		left: {
 			landscape: "jungle",
@@ -387,7 +387,7 @@ const baseTilesArray = [
 	},
 	{
 		id: 24,
-		imgSrcRecto: "/components/base/base_tiles/assets/tile_24_recto.webp",
+		imgSrcRecto: "/assets/tiles/tile_24_recto.webp",
 
 		left: {
 			landscape: "desert",
@@ -403,7 +403,7 @@ const baseTilesArray = [
 
 	{
 		id: 25,
-		imgSrcRecto: "/components/base/base_tiles/assets/tile_25_recto.webp",
+		imgSrcRecto: "/assets/tiles/tile_25_recto.webp",
 
 		left: {
 			landscape: "desert",
@@ -419,7 +419,7 @@ const baseTilesArray = [
 
 	{
 		id: 26,
-		imgSrcRecto: "/components/base/base_tiles/assets/tile_26_recto.webp",
+		imgSrcRecto: "/assets/tiles/tile_26_recto.webp",
 
 		left: {
 			landscape: "desert",
@@ -434,7 +434,7 @@ const baseTilesArray = [
 	},
 	{
 		id: 27,
-		imgSrcRecto: "/components/base/base_tiles/assets/tile_27_recto.webp",
+		imgSrcRecto: "/assets/tiles/tile_27_recto.webp",
 
 		left: {
 			landscape: "desert",
@@ -449,7 +449,7 @@ const baseTilesArray = [
 	},
 	{
 		id: 28,
-		imgSrcRecto: "/components/base/base_tiles/assets/tile_28_recto.webp",
+		imgSrcRecto: "/assets/tiles/tile_28_recto.webp",
 
 		left: {
 			landscape: "desert",
@@ -465,7 +465,7 @@ const baseTilesArray = [
 	},
 	{
 		id: 29,
-		imgSrcRecto: "/components/base/base_tiles/assets/tile_29_recto.webp",
+		imgSrcRecto: "/assets/tiles/tile_29_recto.webp",
 
 		left: {
 			landscape: "desert",
@@ -481,7 +481,7 @@ const baseTilesArray = [
 	},
 	{
 		id: 30,
-		imgSrcRecto: "/components/base/base_tiles/assets/tile_30_recto.webp",
+		imgSrcRecto: "/assets/tiles/tile_30_recto.webp",
 
 		left: {
 			landscape: "desert",
@@ -497,7 +497,7 @@ const baseTilesArray = [
 	},
 	{
 		id: 31,
-		imgSrcRecto: "/components/base/base_tiles/assets/tile_31_recto.webp",
+		imgSrcRecto: "/assets/tiles/tile_31_recto.webp",
 
 		left: {
 			landscape: "desert",
@@ -513,7 +513,7 @@ const baseTilesArray = [
 	},
 	{
 		id: 32,
-		imgSrcRecto: "/components/base/base_tiles/assets/tile_32_recto.webp",
+		imgSrcRecto: "/assets/tiles/tile_32_recto.webp",
 
 		left: {
 			landscape: "meadow",
@@ -529,7 +529,7 @@ const baseTilesArray = [
 	},
 	{
 		id: 33,
-		imgSrcRecto: "/components/base/base_tiles/assets/tile_33_recto.webp",
+		imgSrcRecto: "/assets/tiles/tile_33_recto.webp",
 
 		left: {
 			landscape: "meadow",
@@ -545,7 +545,7 @@ const baseTilesArray = [
 	},
 	{
 		id: 34,
-		imgSrcRecto: "/components/base/base_tiles/assets/tile_34_recto.webp",
+		imgSrcRecto: "/assets/tiles/tile_34_recto.webp",
 
 		left: {
 			landscape: "meadow",
@@ -561,7 +561,7 @@ const baseTilesArray = [
 	},
 	{
 		id: 35,
-		imgSrcRecto: "/components/base/base_tiles/assets/tile_35_recto.webp",
+		imgSrcRecto: "/assets/tiles/tile_35_recto.webp",
 
 		left: {
 			landscape: "lake",
@@ -577,7 +577,7 @@ const baseTilesArray = [
 	},
 	{
 		id: 36,
-		imgSrcRecto: "/components/base/base_tiles/assets/tile_36_recto.webp",
+		imgSrcRecto: "/assets/tiles/tile_36_recto.webp",
 
 		left: {
 			landscape: "meadow",
@@ -594,7 +594,7 @@ const baseTilesArray = [
 
 	{
 		id: 37,
-		imgSrcRecto: "/components/base/base_tiles/assets/tile_37_recto.webp",
+		imgSrcRecto: "/assets/tiles/tile_37_recto.webp",
 
 		left: {
 			landscape: "rocky",
@@ -611,7 +611,7 @@ const baseTilesArray = [
 
 	{
 		id: 38,
-		imgSrcRecto: "/components/base/base_tiles/assets/tile_38_recto.webp",
+		imgSrcRecto: "/assets/tiles/tile_38_recto.webp",
 
 		left: {
 			landscape: "meadow",
@@ -628,7 +628,7 @@ const baseTilesArray = [
 	},
 	{
 		id: 39,
-		imgSrcRecto: "/components/base/base_tiles/assets/tile_39_recto.webp",
+		imgSrcRecto: "/assets/tiles/tile_39_recto.webp",
 
 		left: {
 			landscape: "meadow",
@@ -645,7 +645,7 @@ const baseTilesArray = [
 	},
 	{
 		id: 40,
-		imgSrcRecto: "/components/base/base_tiles/assets/tile_40_recto.webp",
+		imgSrcRecto: "/assets/tiles/tile_40_recto.webp",
 
 		left: {
 			landscape: "lake",
@@ -662,7 +662,7 @@ const baseTilesArray = [
 	},
 	{
 		id: 41,
-		imgSrcRecto: "/components/base/base_tiles/assets/tile_41_recto.webp",
+		imgSrcRecto: "/assets/tiles/tile_41_recto.webp",
 		left: {
 			landscape: "lake",
 			flames: 0,
@@ -677,7 +677,7 @@ const baseTilesArray = [
 	},
 	{
 		id: 42,
-		imgSrcRecto: "/components/base/base_tiles/assets/tile_42_recto.webp",
+		imgSrcRecto: "/assets/tiles/tile_42_recto.webp",
 
 		left: {
 			landscape: "lake",
@@ -694,7 +694,7 @@ const baseTilesArray = [
 	},
 	{
 		id: 43,
-		imgSrcRecto: "/components/base/base_tiles/assets/tile_43_recto.webp",
+		imgSrcRecto: "/assets/tiles/tile_43_recto.webp",
 
 		left: {
 			landscape: "jungle",
@@ -711,7 +711,7 @@ const baseTilesArray = [
 	},
 	{
 		id: 44,
-		imgSrcRecto: "/components/base/base_tiles/assets/tile_44_recto.webp",
+		imgSrcRecto: "/assets/tiles/tile_44_recto.webp",
 
 		left: {
 			landscape: "jungle",
@@ -728,7 +728,7 @@ const baseTilesArray = [
 	},
 	{
 		id: 45,
-		imgSrcRecto: "/components/base/base_tiles/assets/tile_45_recto.webp",
+		imgSrcRecto: "/assets/tiles/tile_45_recto.webp",
 
 		left: {
 			landscape: "rocky",
@@ -745,7 +745,7 @@ const baseTilesArray = [
 	},
 	{
 		id: 46,
-		imgSrcRecto: "/components/base/base_tiles/assets/tile_46_recto.webp",
+		imgSrcRecto: "/assets/tiles/tile_46_recto.webp",
 
 		left: {
 			landscape: "lake",
@@ -760,7 +760,7 @@ const baseTilesArray = [
 	},
 	{
 		id: 47,
-		imgSrcRecto: "/components/base/base_tiles/assets/tile_47_recto.webp",
+		imgSrcRecto: "/assets/tiles/tile_47_recto.webp",
 
 		left: {
 			landscape: "jungle",
@@ -775,7 +775,7 @@ const baseTilesArray = [
 	},
 	{
 		id: 48,
-		imgSrcRecto: "/components/base/base_tiles/assets/tile_48_recto.webp",
+		imgSrcRecto: "/assets/tiles/tile_48_recto.webp",
 
 		left: {
 			landscape: "rocky",
@@ -796,7 +796,7 @@ app.use(
 	cors({
 		origin: process.env.FRONTEND_URL || "http://localhost:5173",
 	}),
-);
+); //pb avec var env du front
 
 app.get("/api/basetiles", (req, res) => {
 	res.json(baseTilesArray);
