@@ -802,6 +802,6 @@ app.get("/api/basetiles", (req, res) => {
 	res.json(baseTilesArray);
 });
 
-app.listen(PORT, () => {
-	console.log(`Serveur lancé sur le port ${PORT}`);
+app.listen(PORT, "0.0.0.0", () => {
+	console.log(`Serveur démarré sur le port ${PORT}`);
 });
