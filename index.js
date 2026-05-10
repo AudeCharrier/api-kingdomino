@@ -796,7 +796,11 @@ app.use(
 	cors({
 		origin: process.env.FRONTEND_URL || "http://localhost:5173",
 	}),
-); //pb avec var env du front
+);
+
+app.get("/", (req, res) => {
+	res.send("L’API du jeu est en ligne et fonctionnelle !");
+});
 
 app.get("/api/basetiles", (req, res) => {
 	res.json(baseTilesArray);
